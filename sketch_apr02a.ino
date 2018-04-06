@@ -34,7 +34,7 @@ MeIR ir;
 void setup(){
     ir.begin();
     lineflag = 10;
-    while(!(((ir.getString())==( "go" ))))
+    while(!(((ir.getString())==( "gogo" ))))
     {
         _loop();
     }
@@ -52,3 +52,4 @@ void _delay(float seconds){
 
 void _loop(){
 }
+
